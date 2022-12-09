@@ -1,7 +1,13 @@
+// Step 1: Input a string
+// Step 2: Extract the first word.
+// Step 3: Biggest Word = Smallest Word = First Word
+// Step 4: Extract next word
+// Step 5: If next word > biggest word, biggest word = next word
+// Step 6: If next word < smallest word, smallest word = next word
+
 import java.io.DataInputStream;
 
 public class stringprog {
-    @Deprecated
     public static void main(String[] args) throws Exception {
         DataInputStream ob = new DataInputStream(System.in);
         String s, w1="", w2="", bg="", sm="";
@@ -34,9 +40,3 @@ public class stringprog {
     }
 }
 
-// Step 1: Input a string
-// Step 2: Extract the first word.
-// Step 3: Biggest Word = Smallest Word = First Word
-// Step 4: Extract next word
-// Step 5: If next word > biggest word, biggest word = next word
-// Step 6: If next word < smallest word, smallest word = next word
